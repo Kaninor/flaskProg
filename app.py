@@ -1,5 +1,5 @@
 import os
-from flask import Flask, redirect, url_for, render_template, request, flash, jsonify
+from flask import Flask, redirect, redirect, url_for, render_template, request, flash, jsonify
 from flask_limiter import Limiter
 
 app = Flask(__name__)
