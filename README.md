@@ -2,7 +2,7 @@
 a very simple site with flask in python
 
 > SETUP:
-## open your terminal type `virtualenv venv`
+## open your terminal and then type `virtualenv venv`
 ## Windows : venv\Scripts\activate
 ## mac\linux : source venv\bin\activate
 
