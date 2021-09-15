@@ -1,9 +1,15 @@
 {% extends "layout.html" %}
 
 {% block head %}
-<title>Profile</title>
+<title>Admins</title>
 {% endblock %}
 
 {% block body %}
-<h1>{{ user }}'s profile</h1>
+
+{% for admin in adminsList %}
+
+<li>{{ admin }}</li>
+
+{% endfor %}
+
 {% endblock %}
